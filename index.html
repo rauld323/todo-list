@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link
+      rel="stylesheet"
+      href="https://maxcdn.bootstrapcdn.com/font-awesome/4.4.0/css/font-awesome.min.css"
+    />
+    <link rel="stylesheet" href="style.css" />
+    <meta http-equiv="X-UA-Compatible" content="ie=edge" />
+    <title>ToDo List</title>
+  </head>
+  <body>
+    <div class="list-container">
+      <div class="header-pic">
+        <div class="refresh"></div>
+        <div id="date"></div>
+      </div>
+      <div class="content">
+        <ul id="list">
+          <li class="item">
+            <i class="fa fa-circle-thin complete"></i>
+            <p class="message">Brush Teath</p>
+            <i class="fa fa-trash"></i>
+          </li>
+        </ul>
+        <div class="submit-list">
+          <i class="fa fa-plus-circle"></i>
+          <input
+            type="text"
+            id="input"
+            placeholder="What Needs To Be Done Today?"
+          />
+        </div>
+      </div>
+    </div>
+    <script src="index.js"></script>
+  </body>
+</html>
